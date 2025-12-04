@@ -3,6 +3,40 @@
 ## 1. Overview
 Built a multi-page RCM analytics solution for a healthcare clinic, converting raw monthly ledger data into an interactive Power BI dashboard to track performance, identify leakage, and streamline month-end close.
 
+---
+
+## 🖼️ Overall Performance Snapshot
+This view presents the executive summary, including key trendlines, utilization statistics, and high-level KPIs, ensuring stakeholders can quickly gauge the overall health of the revenue cycle.
+
+**
+
+[Image of RCM Overall Analysis]
+**
+![RCM Overall Performance Analysis](rcm_overall-analysis.png)
+
+---
+
+## 2. Revenue Cycle and Collections Analysis
+This dedicated section focuses on the performance of the billing department. It tracks critical financial metrics enforced with **complex DAX measures**, including:
+* **Net Collection Rate (NCR%)**
+* **Gross Collection Rate (GCR%)**
+* Trends in Charges, Payments, and Adjustments.
+
+****
+![Revenue Cycle Analysis](rcm_revenue-analysis.png)
+
+## 3. AR Aging and Risk Management Snapshot
+The Accounts Receivable (AR) snapshot is the engine for risk mitigation. It provides a real-time view of outstanding claims, specifically focusing on the most critical segment: **AR Aging > 90 Days**.
+
+* Identifies payers with the highest exposure.
+* Allows drilling down into denial reasons for targeted follow-up.
+* Key Metric tracked: **Days Sales Outstanding (DSO)**.
+
+****
+![AR Aging Snapshot](rcm_ar-snapshot.png)
+
+---
+
 ### 🎯 Goal
 To replace manual, error-prone spreadsheets with a single source of truth for RCM health, focusing on exposing **Accounts Receivable (AR) risk** and drivers of **Net Collection Rate (NCR)**.
 
