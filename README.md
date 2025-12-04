@@ -60,5 +60,4 @@ To replace manual, error-prone spreadsheets with a single source of truth for RC
 - **Reporting Improvement:** Replaced manual spreadsheets with a single interactive report, providing leadership with **real-time MoM deltas** on KPI cards (e.g., Charges +4.1% MoM, Payments +6.3% MoM).
 
 ## 5. View Project
-- **Live Interactive Dashboard:** [Insert Your NovyPro Link for this RCM Dashboard HERE]
 - **DAX & M-Code Logic:** Available in the `DAX_Measures.txt` and `Power_Query_M_Code.txt` files in this repository.
